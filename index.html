@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>autofill-me privacy policy</title>
+    <meta name="description" content="Privacy policy for the autofill-me browser extension." />
+    <style>
+      :root { color-scheme: light dark; --text: #1c2330; --muted: #5d6778; --bg: #ffffff; --accent: #2357d4; }
+      @media (prefers-color-scheme: dark) { :root { --text: #e5e9f0; --muted: #9aa4b5; --bg: #12161d; --accent: #7aa2ff; } }
+      body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--text); background: var(--bg); margin: 0; }
+      main { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+      h1 { font-size: 28px; margin: 0 0 4px; }
+      h2 { font-size: 19px; margin: 32px 0 8px; }
+      .updated { color: var(--muted); margin: 0 0 24px; }
+      a { color: var(--accent); }
+      li + li { margin-top: 6px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>autofill-me privacy policy</h1>
+      <p class="updated">Last updated: 15 November 2026</p>
+
+      <p>
+        autofill-me is a browser extension that fills job application forms from a profile you
+        save in it. This policy explains what happens to your information.
+      </p>
+
+      <h2>What the extension stores</h2>
+      <ul>
+        <li>
+          The profile you enter or import: name, contact details, address, work history,
+          education, compensation, notice period, links, screening answers and any sensitive
+          details you choose to turn on.
+        </li>
+        <li>Documents you add, such as your resume and cover letter.</li>
+        <li>Your settings, answers you save for reuse, and fields you map on specific sites.</li>
+      </ul>
+      <p>
+        All of this is stored <strong>only in your browser</strong>, using the browser's extension
+        storage and IndexedDB on your device.
+      </p>
+
+      <h2>What the extension sends</h2>
+      <p>
+        Nothing. autofill-me makes no network requests. It has no servers, accounts, analytics,
+        advertising or tracking. Your information is never sent to the developer or to anyone
+        else.
+      </p>
+      <p>
+        The only time your information leaves the extension is when <strong>you</strong> ask it to
+        fill a form: it then types your details into that web page, in your browser, exactly as if
+        you had typed them. What happens when you submit that form is governed by the site's own
+        privacy policy. The extension never submits a form for you.
+      </p>
+
+      <h2>Resume and LinkedIn import</h2>
+      <p>
+        When you import a resume PDF or a LinkedIn PDF export, the file is read on your computer by
+        code inside the extension. It is not uploaded anywhere.
+      </p>
+
+      <h2>Sensitive information</h2>
+      <p>
+        Details such as date of birth, gender, government ID numbers, family names and
+        equal-opportunity answers are never filled unless you turn each one on, and they are always
+        shown for your review.
+      </p>
+
+      <h2>Your control</h2>
+      <ul>
+        <li>You can edit or delete any part of your profile in the extension's settings.</li>
+        <li>
+          You can download a backup file and restore it later. The backup is a file on your
+          computer; the extension doesn't keep copies elsewhere.
+        </li>
+        <li>Removing the extension deletes everything it stored.</li>
+      </ul>
+
+      <h2>Permissions</h2>
+      <ul>
+        <li><strong>storage</strong>: keeps your profile and settings in your browser.</li>
+        <li>
+          <strong>activeTab</strong> and <strong>scripting</strong>: fill the page you're on when
+          you click Fill.
+        </li>
+        <li>
+          <strong>Job sites</strong> (Greenhouse, Lever, Ashby, Workday, Zoho, iCIMS, LinkedIn Jobs,
+          Naukri): shows a Fill button on application forms and fills the next step of multi-step
+          applications. Nothing is filled until you click.
+        </li>
+        <li>
+          <strong>debugger</strong> (optional, off unless you turn it on): types into fields that
+          ignore scripted input.
+        </li>
+      </ul>
+
+      <h2>Changes</h2>
+      <p>
+        If this policy changes, the new version will be published here with the extension's
+        update, and the date above will change.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy: open an issue on this repository, or contact the developer
+        through the Chrome Web Store listing.
+      </p>
+    </main>
+  </body>
+</html>
